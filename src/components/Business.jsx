@@ -22,23 +22,22 @@ const Business = () =>  (
   <section id="features" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        You do the business, <br className="sm:block hidden" /> we’ll handle
-        the money.
+        Refer & Earn
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        With the right credit card, you can improve your financial life by
-        building credit, earning rewards and saving money. But with hundreds
-        of credit cards on the market.
+      Empower your teams to build better processes, for a better 
+workplace.
       </p>
 
-      <Button styles={`mt-10`} />
+      <Button text={"Become a Affiliate Partner"} styles={`mt-10`} />
     </div>
-
-    <div className={`${layout.sectionImg} flex-col`}>
-      {features.map((feature, index) => (
-        <FeatureCard key={feature.id} {...feature} index={index} />
-      ))}
-    </div>
+    <p className={`${styles.paragraph} max-w-[570px] mt-15`}>
+    With Cobalt, managing your business finances is effortless, 
+empowering, and anything but boring. Our intuitive platform brings
+clarity to your cash flow, simplifies your financial decision-making, and  
+fingertips. Say no to spreadsheets and tools designed in the 80s.
+      </p>
+   
   </section>
 );
 

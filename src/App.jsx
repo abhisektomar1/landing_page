@@ -1,5 +1,6 @@
 import styles from "./style";
-import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero } from "./components";
+import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero, Expert } from "./components";
+import ChooseUS from "./components/ChooseUs";
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
@@ -17,12 +18,15 @@ const App = () => (
     
     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
-        <Stats />
-        <Business />
-        <Billing />
-        <CardDeal />
-        <Testimonials />
         <Clients />
+        <Billing />
+        <Testimonials />
+        <Stats />
+        <ChooseUS />
+        <Expert />
+        <Business />
+        <CardDeal />
+        {/* <Testimonials /> */}
         <CTA />
         <Footer />
       </div>
@@ -31,6 +35,5 @@ const App = () => (
 );
 
 export default App;
-/* Group 512882 */
 
 

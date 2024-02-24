@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, ChooseUs1, ChooseUs2, Chooseus2  } from "../assets";
 
 export const navLinks = [
   {
@@ -10,12 +10,16 @@ export const navLinks = [
     title: "Features",
   },
   {
-    id: "product",
-    title: "Product",
+    id: "expert",
+    title: "experties",
   },
   {
-    id: "clients",
-    title: "Clients",
+    id: "blogs",
+    title: "blogs",
+  },
+  {
+    id: "contact us",
+    title: "contact us",
   },
 ];
 
@@ -23,23 +27,47 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "User",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Stay on top of your growing company by making it easy to search, and get to know, your teammates.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Reseach Analysis",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Keep your visuals consistently on-brand with easily accessible colors, icons, screenshots and more, for the whole team.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "A.P",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Set up template bug report forms to give timely and actionable feedback on features and projects in development.",
+  },
+];
+
+export const ChooseUSs = [
+  {
+    id: "ChooseUS-1",
+    icon: ChooseUs1,
+    title: "Lorem Ipsum Dolor",
+    content:
+      "Stay on top of your growing company by making it easy to search, and get to know, your teammates.",
+  },
+  {
+    id: "ChooseUS-2",
+    icon: ChooseUs2,
+    title: "Lorem Ipsum Dolor",
+    content:
+      "Keep your visuals consistently on-brand with easily accessible colors, icons, screenshots and more, for the whole team.",
+  },
+  {
+    id: "ChooseUS-3",
+    icon: Chooseus2,
+    title: "Lorem Ipsum Dolor",
+    content:
+      "Set up template bug report forms to give timely and actionable feedback on features and projects in development.",
   },
 ];
 
@@ -73,45 +101,34 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "cumulative trading volume to date",
+    value: "100k+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "crypto-asset pairs",
+    value: "1200+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "leading global and local crypto exchanges",
+    value: "25k+",
   },
 ];
 
 export const footerLinks = [
   {
-    title: "Useful Links",
+    title: "",
     links: [
       {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
+        name: "",
+        link: "",
       },
       {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+        name: "",
+        link: "",
       },
-      {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
-      },
-      {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
-      },
-      {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
-      },
+     
     ],
   },
   {
@@ -119,23 +136,23 @@ export const footerLinks = [
     links: [
       {
         name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
+        link: "",
       },
       {
         name: "Partners",
-        link: "https://www.hoobank.com/partners/",
+        link: "",
       },
       {
         name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
+        link: "",
       },
       {
         name: "Blog",
-        link: "https://www.hoobank.com/blog/",
+        link: "",
       },
       {
         name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
+        link: "",
       },
     ],
   },
@@ -144,11 +161,11 @@ export const footerLinks = [
     links: [
       {
         name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
+        link: "/",
       },
       {
         name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        link: "/",
       },
     ],
   },
