@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, ChooseUs1, ChooseUs2, Chooseus2  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, Choose1, Choose2, Choose3  } from "../assets";
 
 export const navLinks = [
   {
@@ -50,21 +50,21 @@ export const features = [
 export const ChooseUSs = [
   {
     id: "ChooseUS-1",
-    icon: ChooseUs1,
+    icon: Choose1,
     title: "Lorem Ipsum Dolor",
     content:
       "Stay on top of your growing company by making it easy to search, and get to know, your teammates.",
   },
   {
     id: "ChooseUS-2",
-    icon: ChooseUs2,
+    icon: Choose2,
     title: "Lorem Ipsum Dolor",
     content:
       "Keep your visuals consistently on-brand with easily accessible colors, icons, screenshots and more, for the whole team.",
   },
   {
     id: "ChooseUS-3",
-    icon: Chooseus2,
+    icon: Choose3,
     title: "Lorem Ipsum Dolor",
     content:
       "Set up template bug report forms to give timely and actionable feedback on features and projects in development.",

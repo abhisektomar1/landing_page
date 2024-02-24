@@ -26,9 +26,9 @@ import people02 from "./people02.png";
 import people03 from "./people03.png";
 import product from "./product.png"
 import feat from "./feat.png"
-import ChooseUs1 from "./ChooseUs1.png"
-import ChooseUs2 from "./ChooseUs2.png"
-import Chooseus2 from "./Chooseus2.png"
+import Choose1 from "./Choose1.png"
+import Choose2 from "./Choose2.png"
+import Choose3 from "./Choose3.png"
 import Webinar from "./Webinar.png"
 import Expert from "./Expert.png"
 
@@ -39,9 +39,9 @@ import Expert from "./Expert.png"
 export {
   Expert,
   Webinar,
-  ChooseUs1,
-  ChooseUs2,
-  Chooseus2,
+  Choose1,
+  Choose2,
+  Choose3,
   feat,
   product,
   shopify,
